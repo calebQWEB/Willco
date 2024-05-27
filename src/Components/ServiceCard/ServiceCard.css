@@ -1,0 +1,28 @@
+.service-description {
+    text-align: left;
+}
+
+.sevice-image {
+    width: 100%;
+}
+
+.services-title-and-des-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* .service-title {
+    margin-bottom: 1rem;
+} */
+
+@media screen and (max-width: 1024px) {
+    .service-title {
+        font-size: 1.5rem
+    }
+
+    .service-description {
+        font-size: 0.85rem;
+    }
+}

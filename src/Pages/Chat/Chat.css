@@ -1,0 +1,115 @@
+.willco__chat-section {
+    padding: 1rem 7rem 0.25rem 7rem;
+    background-color: var(--white);
+}
+
+.willco__chat-system {
+    min-height: 100vh;
+    background-color: #c7c7c7;
+    border-radius: 20px;
+    margin-bottom: 0.25rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.sv-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.start-typing {
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #9b9b9b;
+}
+
+.view-chats {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 1rem 2rem;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.willco__send-message {
+    width: 100%;
+    border-radius: 10px;
+    outline-color: #c7c7c7;
+    border: 1px solid #c7c7c7;
+}
+
+.chat-submit-button-container {
+    height: 100%;
+    padding: 0.2rem 1rem;
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+}
+
+.chat-submit-button {
+    font-size: 2rem;
+}
+
+.user-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Add more styling as needed */
+}
+
+.representative-message {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Add more styling as needed */
+}
+
+.representative-message .message-content {
+    background-color: #1871ac;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.user-message .message-content {
+    background-color: #9bc2dd;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .willco__chat-section {
+        padding: 1rem 1rem 0.25rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .representative-message .message-content {
+        font-size: 0.85rem;
+    }
+    
+    .user-message .message-content {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,25 @@
+.willco__rep-profile-modal {
+    background-color: var(--white);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    width: 150px;
+
+    box-shadow: 10px 10px 31px 0px rgba(71, 71, 71, 0.75);
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(71, 71, 71, 0.75);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(71, 71, 71, 0.75);
+}
+
+.willco__rep-profile-modal ul li {
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.willco__rep-profile-modal ul li:hover {
+    background-color: #9b9b9b;
+}
+
+.willco__rep-profile-modal ul li a {
+    text-decoration: none;
+}

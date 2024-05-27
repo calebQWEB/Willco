@@ -1,0 +1,532 @@
+/* Intro */
+.willco__intro {
+    background-image: url(../../assets/Background/Desktop-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 5rem 3rem 0 3rem;
+}
+
+.willco__intro-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.willco__intro-header {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.willco__intro-paragraph {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.willco__intro-image {
+    width: 100%;
+}
+
+.willco__intro-button-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.willco__intro-button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+.services {
+    background-color: var(--accent-color);
+    color: var(--white);
+    font-weight: 500;
+}
+
+.project {
+    font-weight: 500;
+}
+
+.willco__company-resume {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.willco__intro-image {
+    height: 100vh;
+}
+
+.willco__years,
+.willco__completed-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.willco__years span:first-child,
+.willco__completed-projects span:first-child {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: 900;
+}
+
+.willco__years span:nth-child(2),
+.willco__completed-projects:nth-child(2) {
+    color: var(--white);
+}
+
+/* ABOUT US SECTION */
+.willco__about-us {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.willco__about-container {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.willco__about-header {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.willco__about-text {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+.willco__founder {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.willco__about-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+}
+
+.willco__about-image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-2 {
+    grid-column: span 2;
+}
+
+/* OUR SERVICES SECTION */
+.willco__services {
+    text-align: center;
+}
+
+.willco__our-serives {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.willco__out-services-header {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.willco__services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+} 
+
+/* CHOOSE US SECTION */
+.willco__chooseUs-container {
+    position: relative;
+}
+
+.willco__chooseUs-Card {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.willco__chooseUs-Card {
+    font-size: 1.25rem;
+    color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.willco__chooseUs-title {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.willco__chooseUs-description {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.willco__chooseUs-button {
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+/* WORK SECTION */
+.willco__work {
+    background-color: #d7e4ec;
+    margin-top: 4rem;
+}
+
+.willco__project {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.willco__work-header {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.willco__work-header span {
+    color: var(--accent-color);
+}
+
+.willco__work-container {
+    margin-top: 3rem;
+}
+
+/* TESTIOMIALS SECTION */
+.willco__testimonial-span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.willco__testimonial-header {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.quote-icon {
+    font-size: 30px;
+}
+
+.willco__testimonial-container {
+    background-color: #D9D9D9;
+    padding: 2rem;
+    /* width: 800px; */
+}
+
+.clients-container {
+    text-align: center;
+}
+
+.clients-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.willco__testimonial-header span {
+    color: var(--accent-color);
+}
+
+.comments-header {
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.comments {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.clients-container span {
+    font-size: 1.25rem;
+    
+}
+
+.directions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.direction-icon {
+    cursor: pointer;
+}
+
+.direction-icon:hover {
+    border: 1px solid var(--black);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .willco__intro-header {
+        font-size: 2.5rem;
+    }
+
+    .willco__intro-paragraph {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .willco__intro-button {
+        padding: 0.85rem 2rem;
+    }
+
+    .willco__years span:first-child,
+    .willco__completed-projects span:first-child {
+        font-size: 2rem;
+    }
+
+    .willco__years span:nth-child(2),
+    .willco__completed-projects:nth-child(2) {
+        font-size: 0.85rem;
+    }
+
+    .willco__intro-image {
+       display: none;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .willco__intro {    
+        padding: 5rem 3rem;
+    }
+
+    /* ABOUT SECTION */
+    .willco__about-us {
+        font-size: 1.25rem;
+    }
+
+    .willco__about-header {
+        font-size: 2rem;
+    }
+
+    .willco__about-text {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        width: 80%;
+    }
+
+    .willco__founder {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    /* SERVICES SECTION */
+    .willco__our-serives {
+        font-size: 1.25rem;
+    }
+    
+    .willco__out-services-header {
+        font-size: 2rem;
+    }
+
+    /* CHOOSE US SECTION */
+    .willco__chooseUs-Card {
+        font-size: 1rem;
+    }
+    
+    .willco__chooseUs-title {
+        font-size: 2rem;
+    }
+
+    /* WORK SECTION */
+    .willco__project {
+        font-size: 1.25rem;
+    }
+    
+    .willco__work-header {
+        font-size: 2rem;
+    }
+
+    /* TESTIMONIAL */
+    .willco__testimonial-span {
+        font-size: 1.25rem;
+    }
+    
+    .willco__testimonial-header {
+        font-size: 2rem;
+    }
+
+    .quote-icon {
+        font-size: 20px;
+    }
+
+    .comments-header {
+        font-size: 2rem;
+    }
+    
+    .comments {
+        font-size: 0.85rem;
+    }
+    
+    .clients-container span {
+        font-size: 1rem;
+        
+    }
+    
+    .directions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .willco__nav-links-container {
+        display: none;
+    }
+
+    /* INTRO SECTION */
+    .willco__intro {
+        padding: 5rem 1rem;
+    }
+
+    /* ABOUT SECTION */
+    .willco__about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .willco__about-container-article {
+        text-align: center;
+        margin-bottom: 2rem;
+    } 
+
+    .willco__about {
+        text-align: center;
+    }
+
+    .willco__about-text {
+        width: 100%;
+    }
+
+    /* SERVICES SECTION */
+    .willco__services-container {
+        flex-direction: column;
+    }
+
+    /* CHOOSE US SECTION */
+    .willco__chooseUs-image {
+        width: 100%;
+    } 
+
+    .willco__chooseUs-Card {
+        position: static;
+    }
+
+    /* TESTIMONIAL */
+    .comments-header {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .willco__intro-header {
+        font-size: 2rem;
+    }
+
+    /* ABOUT SECTION */
+    .willco__about-us {
+        font-size: 1rem;
+    }
+
+    .willco__about-text {
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+    /* SERVICES SECTION */
+    .willco__our-serives {
+        font-size: 1rem;
+    }
+
+    /* CHOOSE US SECTION */
+    .willco__chooseUs-Card {
+        font-size: 0.85rem;
+    }
+    
+    .willco__chooseUs-title {
+        font-size: 1.5rem;
+    }
+
+    .willco__chooseUs-description {
+        font-size: 0.85rem;
+    }
+
+    .willco__chooseUs-button {
+        font-size: 0.85rem;
+    }
+
+    /* WORK SECTION */
+    .willco__project {
+        font-size: 1rem;
+    }
+    
+    .willco__work-header {
+        font-size: 1.5rem;
+    }
+
+    /* TESTIOMIALS SECTION */
+    .willco__testimonial-span {
+        font-size: 1rem;
+    }
+
+    .willco__testimonial-header {
+        font-size: 1.5rem;
+    }
+
+    .comments-header {
+        font-size: 1.5rem;
+    }
+    
+    .comments {
+        font-size: 0.75rem;
+    }
+    
+    .clients-container span {
+        font-size: 0.85rem;
+        
+    }
+}

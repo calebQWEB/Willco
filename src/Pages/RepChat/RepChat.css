@@ -1,0 +1,146 @@
+.willco__rep-chat-section {
+    padding: 1rem 3rem 0.25rem 3rem;
+    background-color: var(--white);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.willco__users-header {
+    padding: 1rem;
+}
+
+.willco__users-container {
+    background-color: #c7c7c7;
+    padding: 1rem 0;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.willco__rep-chat-system-container {
+    width: 100%;
+}
+
+.willco__rep-chat-system {
+    min-height: 100vh;
+    background-color: #c7c7c7;
+    border-radius: 20px;
+    margin-bottom: 0.25rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.click-user {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #9b9b9b;
+    text-align: center;
+    width: 100%;
+}
+
+.willco__users-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.willco__users-info:hover {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #dddddd;
+}
+
+.willco__user-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.willco__send-message {
+    width: 100%;
+    border-radius: 10px;
+    outline-color: #c7c7c7;
+    border: 1px solid #c7c7c7;
+}
+
+.rep-chat-submit-button-container {
+    height: 100%;
+    padding: 0.2rem 1rem;
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+}
+
+.rep-chat-submit-button {
+    font-size: 2rem;
+}
+
+.user-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  /* Add more styling as needed */
+}
+
+.representative-message {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 10px;
+  /* Add more styling as needed */
+}
+
+.representative-message .message-content {
+    background-color: #1871ac;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    max-width: 50%;
+}
+
+.user-message .message-content {
+    background-color: #9bc2dd;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .willco__rep-chat-section {
+        padding: 1rem 1rem 0.25rem 1rem;
+        flex-direction: column;
+    }
+
+    .willco__users-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .representative-message .message-content {
+        font-size: 0.85rem;
+    }
+    
+    .user-message .message-content {
+        font-size: 0.85rem;
+    }
+}

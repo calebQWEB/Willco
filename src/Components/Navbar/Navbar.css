@@ -1,0 +1,101 @@
+.willco__nav {
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b0b0e;
+    position: relative;
+}
+
+.willco__logo {
+    width: 78px;
+    height: 78px;
+}
+
+.willco__nav-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.willco__nav-menu-icon-container {
+    display: none;
+}
+
+.willco__nav-links {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.willco__user-profile-container {
+    position: relative;
+}
+
+.willco__user-photo,
+.willco__rep-profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.willco__chat-button {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 1rem 2rem;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .willco__logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .willco__nav-links a {
+        font-size: 0.85rem;
+    }
+
+    .willco__chat-button {
+        background-color: var(--accent-color);
+        border: none;
+        padding: 0.85rem 1rem;
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .willco__nav {
+        padding: 1rem;
+    }
+
+    .willco__nav-menu-icon-container {
+        display: block;
+    }
+
+    .willco__nav-links-container-mobile {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: #0b0b0e;
+        border: 1px solid var(--accent-color);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        z-index: 100;
+    }
+
+    .willco__nav-links-mobile a {
+        font-size: 1rem;
+        color: var(--white);
+    }
+}

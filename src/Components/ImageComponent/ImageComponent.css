@@ -1,0 +1,12 @@
+.work-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1115px) {
+    .work-image {
+       width: 100%;
+    }
+}

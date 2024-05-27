@@ -1,0 +1,116 @@
+.login-modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background-color: var(--white);
+}
+
+.modal-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.login-modal-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.modal-client,
+.modal-employee {
+    padding: 1.5rem 2.5rem;
+    border: 1px solid var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.close-icon-container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    border: 1px solid var(--black);
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+}
+
+.scale-in-hor-right {
+	-webkit-animation: scale-in-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-right {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+      opacity: 1;
+    }
+  }
+
+
+  /* Email sign up */
+  .email-signup {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3rem;
+    
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .close-icon-container {
+        background-color: var(--white);
+        padding: 0.25rem;
+    
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    
+    .close-icon {
+        font-size: 2rem;
+    }
